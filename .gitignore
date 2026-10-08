@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Output: stems of recordings are never committed
+Transcriptions/
+*_stems/
+_work/
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.aif
+*.aiff
+*.ogg
+
+# Model weights (downloaded on first use, see README)
+audio-separator-models/
+*.ckpt
+*.th
+*.onnx
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
