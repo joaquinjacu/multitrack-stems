@@ -104,7 +104,7 @@ Any format ffmpeg can read works; the first audio stream is used and resampled t
 | `STEMS_MODEL_DIR` | `~/audio-separator-models` | model cache |
 | `AUDIO_SEPARATOR` | `~/.local/bin/audio-separator`, else PATH | audio-separator CLI |
 
-`stems` also works on its own (`stems -h`): short model names (`ft`, `6s`, `rofo`, `dual`, `mdx23c`, or any model filename), folder input, FLAC or WAV output, and `-t` for true level. The same script is included in the companion repository [`transcribe-midi`](https://github.com/heiofdvk/transcribe-midi), which turns links or audio files into MIDI; the two copies are identical.
+`stems` also works on its own (`stems -h`): short model names (`ft`, `6s`, `rofo`, `dual`, `mdx23c`, or any model filename), folder input, FLAC or WAV output, and `-t` for true level. The same script is included in the companion repository [`transcribe-midi`](https://github.com/joaquinjacu/transcribe-midi), which turns links or audio files into MIDI; the two copies are identical.
 
 ## Output
 
